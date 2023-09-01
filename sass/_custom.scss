@@ -1,0 +1,66 @@
+:root {
+    --btn-yellow: #CCCC3B;
+    --btn-yellow-hover: #9c9c2b;
+    --header-underline: #9F00FF;
+}
+
+.header1 {
+    text-decoration: underline;
+    text-decoration-color: var(--header-underline);
+    font-size: 400%;
+    font: normal normal 900 60px/80px Montserrat;
+    letter-spacing: 0.6px;
+}
+
+.p-center {
+    font: normal normal bold 23px/30px Roboto;
+    letter-spacing: 0px;
+    color: #1E1C36;
+    opacity: 1;
+}
+
+.sponsorenlauf-bg {
+    background-image: url("../assets/img/Bildschirm­foto\ 2023-03-03\ um\ 19.09.50.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 90%;
+}
+
+.sponsorenlauf-h {
+    color: #ffffff;
+    font-size: 300%;
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 80px #000000BC;
+    opacity: 1;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.sponsorenlauf-text {
+    color: white;
+    text-align: left;
+    border-left: 1px solid #ffffff;
+
+}
+
+.bg-purple {
+    top: 15%;
+    left: 35%;
+    width: 100%;
+    height: 100%;
+    /* UI Properties */
+    background: #9F00FF 0% 0% no-repeat padding-box;
+    border-radius: 389px;
+    opacity: 1;
+    position: absolute;
+    z-index: -1;
+}
+
+.video {
+    width: 760px;
+    height: 394px;
+    background: #1E1C36 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    border-radius: 25px;
+
+}
